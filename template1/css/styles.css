@@ -1,0 +1,104 @@
+nav.navbar {
+    width: 100%;
+}
+
+.img-logo {
+    display: block;
+}
+
+button.navbar-toggler {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .img-logo {
+        display: none;
+    }
+    nav.navbar {
+        background-color: #393939 !important;
+        color: #fff !important;
+    }
+    nav.header-menu {
+        position: fixed;
+        height: 48px !important;
+        z-index: 1070;
+        top: 0;
+        left: 0;
+    }
+    .navbar-collapse {
+        position: absolute;
+        left: 0;
+        top: 48px;
+        width: 100%;
+        padding: 0px 30px 20px;;
+        background-color: #393939;
+        box-shadow: 2px 0 15px #393939;
+    }
+    .sec-slide {
+        margin-top: 23px;
+    }
+    a {
+        color: #fff !important;
+    }
+    .footer {
+        text-align: center;
+    }
+    .carousel-inner {
+        height: 200px !important;
+    }
+    img.d-block {
+        height: 200px !important;
+    }
+}
+
+.card {
+    margin: 25px 0;
+}
+
+a.nav-item.nav-link {
+    font-size: 18px;
+}
+
+.carousel-inner {
+    max-height: 450px;
+    background-color: #999;
+}
+
+.sec-about {
+    height: 500px;
+    background-image: url('../assets/office.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-about .container {
+    color: #fff;
+    padding-top: 100px;
+}
+
+.sec-contact {
+    padding: 35px;
+    border-top: 1px solid #cecece;
+    background-color: #f3f3f3;
+}
+
+.sec-contact p {
+    margin: 0;
+    line-height: 180%;
+}
+
+.footer {
+    border-top: 1px solid #cecece;
+    padding-top: 35px;
+}
+
+.footer a {
+    color: #666 !important;
+}
+
+.footer a.navbar-brand {
+    display: block !important;
+    color: #fff !important;
+    font-size: 14px;
+}
